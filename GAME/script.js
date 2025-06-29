@@ -1,9 +1,6 @@
 
-// var playerOne = prompt("Player One: Enter your name, you will be X")
-// var playerTwo = prompt("Player Two: Enter your name, you will be Y")
-
-var playerOne = "Ada"
-var playerTwo = 'Kunle'
+var playerOne = prompt("Player One: Enter your name, you will be X")
+var playerTwo = prompt("Player Two: Enter your name, you will be Y")
 
 var table = $('table tr')
 var button = $('button')
@@ -174,9 +171,3 @@ button[i].addEventListener('click',function(){
   
   
 })
-
-
-
- //End of the event listener
-
-//End of the real coding part
