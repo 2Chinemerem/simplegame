@@ -216,7 +216,8 @@ restartbutton.addEventListener('click', function(){
   button.forEach(el => {
     el.textContent= " "
     el.disabled= false
-    el.style.backgroundColor= 'white'
+    el.style.removeProperty("background-color");
+    
   })
 
 
